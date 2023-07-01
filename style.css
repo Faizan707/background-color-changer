@@ -1,16 +1,10 @@
 body{
     text-align: center;
-    background-color: aquamarine;
     margin-top: 300px;   
 }
 button{
     padding: 15px;
     border-radius: 3px;
-    background-color: lightgreen;
     color: black;
     border: none;
-}
-button:hover{
-    background-color: darkgreen;
-    
 }
