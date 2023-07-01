@@ -1,5 +1,6 @@
 let btn = document.getElementById("btn");
 let body = document.querySelector("body");
+let colorNumber=document.getElementById("colorNumber")
 
 btn.addEventListener('click', () => {
   var red = Math.floor(Math.random() * 256);
@@ -13,4 +14,5 @@ btn.addEventListener('click', () => {
   // Apply the generated color to the background color of the body
   body.style.backgroundColor = rgbaColor;
   btn.style.backgroundColor=rgbaColor
+  colorNumber.innerHTML=rgbaColor
 });
